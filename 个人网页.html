@@ -1,0 +1,313 @@
+
+
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name = "author" content="Cesare Yang">
+  <title> 个人主页</title>
+  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+#home{
+  padding:100px;
+  text-align:center;
+  height:500px;
+  background-image:url("http://img06.tooopen.com/images/20161107/tooopen_sy_185160781566.jpg");
+  background-size:cover;
+  background-attachment: fixed
+}
+nav{
+  background-color:#eeeeee;
+  text-align:right;
+  height:50px;
+  font-size:20px;
+  padding:10px;
+  position:fixed; 
+  width: 100%;
+  overflow: visible;
+  z-index: 1001;
+}
+#cesare{
+  float:left;
+}
+#liebiao {
+	margin: 5px;
+}
+section {
+  background-color:white;
+    float:left;
+    width:100%;
+    padding:30px;	
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    width:100%;
+    text-align:center;
+    padding:5px;
+    background-size:cover;
+    position:absolute; 	 
+}
+h1{
+  font-size:70px;
+}
+p{
+  font-size:20px;
+}
+.intro-divider {
+    width: 800px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid rgba(0,0,0,0.5);
+}
+.clearfix {
+  overflow: auto;
+}
+.col-lg-7{
+  top:40px;
+  left:80px;
+}
+#portfolio{
+  background-color:white;
+    width:100%;
+    padding:30px;
+}
+.star-dark{
+  margin: 30px auto 30px;
+    padding: 0;
+    border: 10px;
+    border-top: solid 3px;
+    text-align:center;
+}
+.star{
+  background-color:rgba(0,0,0,0.3);
+  height:5px;
+}
+#contact{
+    background-color:white;
+    width:100%;
+    padding:30px;
+}
+#portfolio .portfolio-item {
+  margin: 0 0 15px;
+  right: 0;
+  border: 1px outset rgba(255, 255, 255, 0.6);
+}
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s,
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item:hover {
+  transition: 0.5s;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9);
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+.banner {
+    padding: 100px 0;
+  background:url('http://img17.3lian.com/d/file/201703/01/4caed5b234482665b7f203e5760a4642.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 700px;
+}
+.bg-overlay4 {
+  margin-top: -100px;
+  padding: 100px 0;
+  background: rgba(255,255,255, 0.3);
+  height: 755px;
+}
+.banner ul {
+   margin-bottom: 0;
+  float: right;
+   margin-top: 0;
+}
+#contact .btn {
+  margin-top: 15px;
+}
+.btn:hover {
+  color: #fff;
+  border-color: #fff;
+  background-color: rgba(63, 81, 181, 0.1);
+}
+
+
+
+
+    </style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+</head>
+
+<body translate="no" >
+
+  <header>
+  <nav>
+    <div class="container"> 
+    <a rel="nofollow" rel="noreferrer"id="cesare" href="https://www.douban.com/people/Cesare-y/" target="_blank" >Cesare</a>
+    <a rel="nofollow" rel="noreferrer"id = "liebiao" href="#home">HOME</a> 
+    <a rel="nofollow" rel="noreferrer"id="liebiao" href="#about">关于</a> 
+    <a rel="nofollow" rel="noreferrer"id="liebiao" href="#portfolio">项目</a> 
+    <a rel="nofollow" rel="noreferrer"id="liebiao" href="#lianxi">联系</a>
+    </div>
+  </nav>
+</header>
+<div id="home">
+  <a rel="nofollow" rel="noreferrer"neme="home"></a>
+  <div class="container">
+  <h1>Cesare Yang的个人主页</h1>
+  <hr class="intro-divider">
+  <ul class="list-inline intro-social-buttons">
+    <li>
+      <a rel="nofollow" rel="noreferrer"href="https://twitter.com/CeraseYang" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+    </li>
+  <li>
+    <a rel="nofollow" rel="noreferrer"href="https://github.com/Cesarey" target="_blank" class="btn btn-default btn-lg "><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+    </li>
+    <li>
+      <a rel="nofollow" rel="noreferrer"href="https://www.linkedin.com/feed/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i><span class="network-name">Linkedin</span></a>
+    </li>
+    <li>
+      <a rel="nofollow" rel="noreferrer"href="https://www.freecodecamp.cn/cesarey" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-fire fa-fw"></i> <span class="network-name">freeCodeCamp</span></a>
+    </li>
+    <li>
+      <a rel="nofollow" rel="noreferrer"href="https://www.facebook.com/ifeatureleee" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
+    </li>
+  </ul>
+  </div>
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0 src="https://music.163.com/outchain/player?type=2&id=441612583&auto=0&height=32"></iframe>
+</div>
+<a rel="nofollow" rel="noreferrer"name="about"></a>
+<div class="star"></div>
+<section>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-lg-6">
+  <h2>你好，我是Cesare Yang</h2>
+  <p>你好，欢迎来到我的主页。我是Cesare，西泽尔。我是正在找实习工作的大四学生（或许你看到的时候我已经找到工作了）。</p><br>
+  <p>现在就读于电子科技大学，曾经担任过校广播站播音部部长，并连续两届获得过优秀学生干部荣誉称号，2014-2015年度荣获二等奖学金。学过c语言，以及Java语言，现在对前端技术很感兴趣。我目前正在FreeCodecamp上学习并熟练前端技术，有兴趣的可以一起来，不过看这个页面的大概都是大神吧，哈哈。</p><br>
+    <p>不过还是希望能找到一起努力的小伙伴。如果你愿意和我一起努力，联系我吧。</p><br>
+    <p>我，在等你！</p>
+    </div>
+    <div class="col-lg-7 col-lg-6">
+      <img class="img-responsive" src="http://www.201980.com/uploads/allimg/131120/20014a401-0.jpg" alt="" >
+    </div>
+  </div>
+  </div>
+  <hr>
+</section>
+<a rel="nofollow" rel="noreferrer"name="portfolio"></a>
+<section id="portfolio" class="bg-light-gray bounds">
+  <div class="container">
+        <h2 class="text-center">个人项目</h2>
+        <h3 class="text-center">这些都是在web前端学上制作的</h3>
+        <hr class="star-dark">
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a rel="nofollow" rel="noreferrer"href="http://s.codepen.io/cesarey/debug/QdRmvx/mWAoNbNvqDjr" target="_blank" class="portfolio-link" data-toggle="modal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                                <i class="fa fa-fire fa-3x"></i>
+                </div>
+              </div>
+              <img src="http://www.socwall.com/images/wallpapers/73970-1273x807.jpg" class="img-responsive" alt="">
+            </a>
+            <div class="portfolio-caption">
+                        <h4 class="text-center">致敬凯文·米特尼克</h4>
+                        <p class="text-muted text-center">这是一个简单的致敬页</p>
+                    </div>
+                </div>
+    </div>
+    <p>未完待续......</p>
+</div>
+</section>
+<hr>
+  <a rel="nofollow" rel="noreferrer" name="lianxi" id="lianxi"> </a>
+<div id="contact">
+  <h2 class="text-center">联系我</h2>
+  <hr class="star-dark">
+  <div class="banner">
+      <div class="bg-overlay4">
+        <div class="container">
+          <div class="row">
+                <div class="col-lg-6">
+                  <h2 class="connect">旁边的网站有一些国内无法打开，欢迎联系我的QQ：2073146243 但qq不保证一定在线。<br>你还可以联系我的邮箱：ifreatureless@sina.com <br>随时回复<br>恭候你的到来！</h2>
+                </div>
+              </br>
+  <div class="col-lg-6">
+  <ul class="list-unstyled">
+    <li>
+      <a rel="nofollow" rel="noreferrer"href="https://twitter.com/CeraseYang" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+    </li>
+  <li>
+    <a rel="nofollow" rel="noreferrer"href="https://github.com/Cesarey" target="_blank" class="btn btn-default btn-lg "><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+    </li>
+    <li>
+      <a rel="nofollow" rel="noreferrer"href="https://www.linkedin.com/feed/" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i><span class="network-name">Linkedin</span></a>
+    </li>
+    <li>
+      <a rel="nofollow" rel="noreferrer"href="https://www.freecodecamp.cn/cesarey" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-fire fa-fw"></i> <span class="network-name">freeCodeCamp</span></a>
+    </li>
+    <li>
+      <a rel="nofollow" rel="noreferrer"href="https://www.facebook.com/ifeatureleee" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
+    </li>
+  </ul>
+  </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<footer>
+  <div class="container">
+  <p>Copyright &copy;<a rel="nofollow" rel="noreferrer"href="https://www.freecodecamp.cn/cesarey" target="_blank"> Cesare Yang </a>
+  </div>
+</footer>
+  
+  
+  
+  
+  
+
+</body>
+</html>
+ 
